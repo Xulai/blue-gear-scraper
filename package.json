@@ -1,0 +1,20 @@
+{
+  "name": "blue-gear-scraper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "csv-stringify": "^6.4.0",
+    "dotenv": "^16.3.1",
+    "got": "^13.0.0",
+    "ramda": "^0.29.0"
+  }
+}
